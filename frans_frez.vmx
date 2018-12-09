@@ -2,7 +2,11 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8075"
+<<<<<<< HEAD
 	"mapversion" "10"
+=======
+	"mapversion" "9"
+>>>>>>> 8d30dda33a9f5ad1856a444b530f201230f928ce
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +24,11 @@ viewsettings
 world
 {
 	"id" "1"
+<<<<<<< HEAD
 	"mapversion" "10"
+=======
+	"mapversion" "9"
+>>>>>>> 8d30dda33a9f5ad1856a444b530f201230f928ce
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
