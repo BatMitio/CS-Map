@@ -1,0 +1,3025 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 11
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (41130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 244 portalclusters
+ 770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 149 visible clusters (0.00%)
+Total clusters visible: 41571
+Average clusters visible: 170
+Building PAS...
+Average clusters audible: 243
+visdatasize:17074  compressed from 15616
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+802 faces
+589341 square feet [84865104.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+802 patches before subdivision
+16536 patches after subdivision
+6 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 779376, max 289
+transfer lists:   5.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(7381, 5583, 4083)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(931, 533, 282)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(117, 51, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(15, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0038 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             706/81920        5648/655360   ( 0.9%) 
+planes                 342/65536        6840/1310720  ( 0.5%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  522/65536       16704/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  802/65536       44912/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              396/65536       22176/3670016  ( 0.6%) 
+facebrushes            147/0             294/0        ( 0.0%) 
+facebrushlists         802/0            3208/0        ( 0.0%) 
+leaves                 524/65536       16768/2097152  ( 0.8%) 
+leaffaces              936/65536        1872/131072   ( 1.4%) 
+leafbrushes            344/65536         688/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5446/512000      21784/2048000  ( 1.1%) 
+edges                 3076/256000      12304/1024000  ( 1.2%) 
+LDR worldlights          6/8192          600/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1410/65536        2820/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1304348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17074/16777216 ( 0.1%) 
+entdata               [variable]        3998/393216   ( 1.0%) 
+LDR ambient table      524/65536        2096/262144   ( 0.8%) 
+HDR ambient table      524/65536        2096/262144   ( 0.8%) 
+LDR leaf ambient       578/65536       16184/1835008  ( 0.9%) 
+HDR leaf ambient       524/65536       14672/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/644      ( 0.2%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       41130/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2264
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 12
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (41130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 244 portalclusters
+ 770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 149 visible clusters (0.00%)
+Total clusters visible: 41571
+Average clusters visible: 170
+Building PAS...
+Average clusters audible: 243
+visdatasize:17074  compressed from 15616
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+802 faces
+589341 square feet [84865104.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+802 patches before subdivision
+16536 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 779376, max 289
+transfer lists:   5.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14495, 10793, 7755)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1749, 955, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(248, 99, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(37, 11, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0037 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             706/81920        5648/655360   ( 0.9%) 
+planes                 342/65536        6840/1310720  ( 0.5%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  522/65536       16704/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  802/65536       44912/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              396/65536       22176/3670016  ( 0.6%) 
+facebrushes            147/0             294/0        ( 0.0%) 
+facebrushlists         802/0            3208/0        ( 0.0%) 
+leaves                 524/65536       16768/2097152  ( 0.8%) 
+leaffaces              936/65536        1872/131072   ( 1.4%) 
+leafbrushes            344/65536         688/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5446/512000      21784/2048000  ( 1.1%) 
+edges                 3076/256000      12304/1024000  ( 1.2%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1410/65536        2820/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1304348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17074/16777216 ( 0.1%) 
+entdata               [variable]        4159/393216   ( 1.1%) 
+LDR ambient table      524/65536        2096/262144   ( 0.8%) 
+HDR ambient table      524/65536        2096/262144   ( 0.8%) 
+LDR leaf ambient      2251/65536       63028/1835008  ( 3.4%) 
+HDR leaf ambient       524/65536       14672/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/644      ( 0.2%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       41130/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2264
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 13
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (41130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 244 portalclusters
+ 770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 149 visible clusters (0.00%)
+Total clusters visible: 41571
+Average clusters visible: 170
+Building PAS...
+Average clusters audible: 243
+visdatasize:17074  compressed from 15616
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+802 faces
+589341 square feet [84865104.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+802 patches before subdivision
+16536 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 779376, max 289
+transfer lists:   5.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(14495, 10793, 7755)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1749, 955, 484)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(248, 99, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(37, 11, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0083 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             706/81920        5648/655360   ( 0.9%) 
+planes                 342/65536        6840/1310720  ( 0.5%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  522/65536       16704/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  802/65536       44912/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              396/65536       22176/3670016  ( 0.6%) 
+facebrushes            147/0             294/0        ( 0.0%) 
+facebrushlists         802/0            3208/0        ( 0.0%) 
+leaves                 524/65536       16768/2097152  ( 0.8%) 
+leaffaces              936/65536        1872/131072   ( 1.4%) 
+leafbrushes            344/65536         688/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5446/512000      21784/2048000  ( 1.1%) 
+edges                 3076/256000      12304/1024000  ( 1.2%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1410/65536        2820/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1304348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17074/16777216 ( 0.1%) 
+entdata               [variable]        4159/393216   ( 1.1%) 
+LDR ambient table      524/65536        2096/262144   ( 0.8%) 
+HDR ambient table      524/65536        2096/262144   ( 0.8%) 
+LDR leaf ambient      2251/65536       63028/1835008  ( 3.4%) 
+HDR leaf ambient       524/65536       14672/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/644      ( 0.2%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       41130/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2264
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 14
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (41130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+3 seconds elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 244 portalclusters
+ 770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 149 visible clusters (0.00%)
+Total clusters visible: 41571
+Average clusters visible: 170
+Building PAS...
+Average clusters audible: 243
+visdatasize:17074  compressed from 15616
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+802 faces
+589341 square feet [84865104.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+802 patches before subdivision
+16536 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 779376, max 289
+transfer lists:   5.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28057, 23338, 18741)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4002, 2282, 1159)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(591, 263, 104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(106, 38, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(22, 7, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0040 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             706/81920        5648/655360   ( 0.9%) 
+planes                 342/65536        6840/1310720  ( 0.5%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  522/65536       16704/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  802/65536       44912/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              396/65536       22176/3670016  ( 0.6%) 
+facebrushes            147/0             294/0        ( 0.0%) 
+facebrushlists         802/0            3208/0        ( 0.0%) 
+leaves                 524/65536       16768/2097152  ( 0.8%) 
+leaffaces              936/65536        1872/131072   ( 1.4%) 
+leafbrushes            344/65536         688/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5446/512000      21784/2048000  ( 1.1%) 
+edges                 3076/256000      12304/1024000  ( 1.2%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1410/65536        2820/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1304348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17074/16777216 ( 0.1%) 
+entdata               [variable]        4163/393216   ( 1.1%) 
+LDR ambient table      524/65536        2096/262144   ( 0.8%) 
+HDR ambient table      524/65536        2096/262144   ( 0.8%) 
+LDR leaf ambient      2328/65536       65184/1835008  ( 3.6%) 
+HDR leaf ambient       524/65536       14672/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/644      ( 0.2%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       41130/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2264
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 15
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (41130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 244 portalclusters
+ 770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 149 visible clusters (0.00%)
+Total clusters visible: 41571
+Average clusters visible: 170
+Building PAS...
+Average clusters audible: 243
+visdatasize:17074  compressed from 15616
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+802 faces
+589341 square feet [84865104.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+802 patches before subdivision
+16536 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 779376, max 289
+transfer lists:   5.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(26864, 19527, 13147)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3668, 2038, 982)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(639, 285, 108)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(132, 52, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(34, 12, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(10, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0097 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             706/81920        5648/655360   ( 0.9%) 
+planes                 342/65536        6840/1310720  ( 0.5%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  522/65536       16704/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  802/65536       44912/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              396/65536       22176/3670016  ( 0.6%) 
+facebrushes            147/0             294/0        ( 0.0%) 
+facebrushlists         802/0            3208/0        ( 0.0%) 
+leaves                 524/65536       16768/2097152  ( 0.8%) 
+leaffaces              936/65536        1872/131072   ( 1.4%) 
+leafbrushes            344/65536         688/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5446/512000      21784/2048000  ( 1.1%) 
+edges                 3076/256000      12304/1024000  ( 1.2%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1410/65536        2820/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1304348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17074/16777216 ( 0.1%) 
+entdata               [variable]        4163/393216   ( 1.1%) 
+LDR ambient table      524/65536        2096/262144   ( 0.8%) 
+HDR ambient table      524/65536        2096/262144   ( 0.8%) 
+LDR leaf ambient      2261/65536       63308/1835008  ( 3.5%) 
+HDR leaf ambient       524/65536       14672/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/644      ( 0.2%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       41130/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2264
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 16
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (41130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 244 portalclusters
+ 770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 149 visible clusters (0.00%)
+Total clusters visible: 41571
+Average clusters visible: 170
+Building PAS...
+Average clusters audible: 243
+visdatasize:17074  compressed from 15616
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+802 faces
+589341 square feet [84865104.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+802 patches before subdivision
+16536 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 779376, max 289
+transfer lists:   5.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(15359, 10834, 7003)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(1836, 958, 446)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(262, 100, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(40, 11, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(7, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0055 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             706/81920        5648/655360   ( 0.9%) 
+planes                 342/65536        6840/1310720  ( 0.5%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  522/65536       16704/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  802/65536       44912/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              396/65536       22176/3670016  ( 0.6%) 
+facebrushes            147/0             294/0        ( 0.0%) 
+facebrushlists         802/0            3208/0        ( 0.0%) 
+leaves                 524/65536       16768/2097152  ( 0.8%) 
+leaffaces              936/65536        1872/131072   ( 1.4%) 
+leafbrushes            344/65536         688/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5446/512000      21784/2048000  ( 1.1%) 
+edges                 3076/256000      12304/1024000  ( 1.2%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1410/65536        2820/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1304348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17074/16777216 ( 0.1%) 
+entdata               [variable]        4159/393216   ( 1.1%) 
+LDR ambient table      524/65536        2096/262144   ( 0.8%) 
+HDR ambient table      524/65536        2096/262144   ( 0.8%) 
+LDR leaf ambient      2277/65536       63756/1835008  ( 3.5%) 
+HDR leaf ambient       524/65536       14672/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/644      ( 0.2%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       41130/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2264
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 17
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (41130 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 244 portalclusters
+ 770 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 149 visible clusters (0.00%)
+Total clusters visible: 41571
+Average clusters visible: 170
+Building PAS...
+Average clusters audible: 243
+visdatasize:17074  compressed from 15616
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+802 faces
+589341 square feet [84865104.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+802 patches before subdivision
+16536 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 779376, max 289
+transfer lists:   5.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(28744, 20528, 11823)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3986, 1915, 716)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(569, 202, 56)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(94, 25, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(17, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0041 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                115/8192         1380/98304    ( 1.4%) 
+brushsides             706/81920        5648/655360   ( 0.9%) 
+planes                 342/65536        6840/1310720  ( 0.5%) 
+vertexes              1182/65536       14184/786432   ( 1.8%) 
+nodes                  522/65536       16704/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  802/65536       44912/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              396/65536       22176/3670016  ( 0.6%) 
+facebrushes            147/0             294/0        ( 0.0%) 
+facebrushlists         802/0            3208/0        ( 0.0%) 
+leaves                 524/65536       16768/2097152  ( 0.8%) 
+leaffaces              936/65536        1872/131072   ( 1.4%) 
+leafbrushes            344/65536         688/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5446/512000      21784/2048000  ( 1.1%) 
+edges                 3076/256000      12304/1024000  ( 1.2%) 
+LDR worldlights          8/8192          800/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             97/32768         970/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1410/65536        2820/131072   ( 2.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1304348/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17074/16777216 ( 0.1%) 
+entdata               [variable]        4163/393216   ( 1.1%) 
+LDR ambient table      524/65536        2096/262144   ( 0.8%) 
+HDR ambient table      524/65536        2096/262144   ( 0.8%) 
+LDR leaf ambient      2398/65536       67144/1835008  ( 3.7%) 
+HDR leaf ambient       524/65536       14672/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/644      ( 0.2%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       41130/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2264
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\cs map\cs-map\frans_frez.vmf
+Map revision 20
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\cs map\cs-map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (42490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\cs map\cs-map\frans_frez.bsp
+reading d:\cs map\cs-map\frans_frez.prt
+ 252 portalclusters
+ 795 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 169 visible clusters (0.00%)
+Total clusters visible: 43323
+Average clusters visible: 171
+Building PAS...
+Average clusters audible: 251
+visdatasize:18255  compressed from 16128
+writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\cs map\cs-map\frans_frez.bsp
+822 faces
+592069 square feet [85258064.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+822 patches before subdivision
+16800 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 794906, max 294
+transfer lists:   6.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(41916, 32869, 23352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8208, 5915, 4210)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1978, 1488, 1084)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(549, 428, 302)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(164, 130, 87)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(51, 40, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 12, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0034 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                119/8192         1428/98304    ( 1.5%) 
+brushsides             730/81920        5840/655360   ( 0.9%) 
+planes                 346/65536        6920/1310720  ( 0.5%) 
+vertexes              1217/65536       14604/786432   ( 1.9%) 
+nodes                  537/65536       17184/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  822/65536       46032/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              406/65536       22736/3670016  ( 0.6%) 
+facebrushes            145/0             290/0        ( 0.0%) 
+facebrushlists         822/0            3288/0        ( 0.0%) 
+leaves                 539/65536       17248/2097152  ( 0.8%) 
+leaffaces              966/65536        1932/131072   ( 1.5%) 
+leafbrushes            353/65536         706/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5583/512000      22332/2048000  ( 1.1%) 
+edges                 3159/256000      12636/1024000  ( 1.2%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             94/32768         940/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1380/65536        2760/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1342720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18255/16777216 ( 0.1%) 
+entdata               [variable]        5803/393216   ( 1.5%) 
+LDR ambient table      539/65536        2156/262144   ( 0.8%) 
+HDR ambient table      539/65536        2156/262144   ( 0.8%) 
+LDR leaf ambient      2418/65536       67704/1835008  ( 3.7%) 
+HDR leaf ambient       539/65536       15092/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1568     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       42490/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2321
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\cs map\cs-map\frans_frez.vmf
+Map revision 21
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\cs map\cs-map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (42490 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 99 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\cs map\cs-map\frans_frez.bsp
+reading d:\cs map\cs-map\frans_frez.prt
+ 252 portalclusters
+ 795 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 169 visible clusters (0.00%)
+Total clusters visible: 43323
+Average clusters visible: 171
+Building PAS...
+Average clusters audible: 251
+visdatasize:18255  compressed from 16128
+writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\cs map\cs-map\frans_frez.bsp
+822 faces
+592069 square feet [85258064.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+822 patches before subdivision
+16800 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 794906, max 294
+transfer lists:   6.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37961, 29097, 19810)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6982, 4768, 3224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1568, 1119, 790)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(418, 314, 218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 94, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(37, 29, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0040 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                119/8192         1428/98304    ( 1.5%) 
+brushsides             730/81920        5840/655360   ( 0.9%) 
+planes                 346/65536        6920/1310720  ( 0.5%) 
+vertexes              1217/65536       14604/786432   ( 1.9%) 
+nodes                  537/65536       17184/2097152  ( 0.8%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  822/65536       46032/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              406/65536       22736/3670016  ( 0.6%) 
+facebrushes            145/0             290/0        ( 0.0%) 
+facebrushlists         822/0            3288/0        ( 0.0%) 
+leaves                 539/65536       17248/2097152  ( 0.8%) 
+leaffaces              966/65536        1932/131072   ( 1.5%) 
+leafbrushes            353/65536         706/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5583/512000      22332/2048000  ( 1.1%) 
+edges                 3159/256000      12636/1024000  ( 1.2%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             94/32768         940/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1380/65536        2760/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1342720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18255/16777216 ( 0.1%) 
+entdata               [variable]        5784/393216   ( 1.5%) 
+LDR ambient table      539/65536        2156/262144   ( 0.8%) 
+HDR ambient table      539/65536        2156/262144   ( 0.8%) 
+LDR leaf ambient      2420/65536       67760/1835008  ( 3.7%) 
+HDR leaf ambient       539/65536       15092/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1568     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       42490/4194304  ( 1.0%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2321
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\cs map\cs-map\frans_frez.vmf
+Map revision 22
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\cs map\cs-map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47265 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 123 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\cs map\cs-map\frans_frez.bsp
+reading d:\cs map\cs-map\frans_frez.prt
+ 253 portalclusters
+ 795 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 132 visible clusters (0.00%)
+Total clusters visible: 42973
+Average clusters visible: 169
+Building PAS...
+Average clusters audible: 252
+visdatasize:18193  compressed from 16192
+writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\cs map\cs-map\frans_frez.bsp
+827 faces
+592375 square feet [85302096.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+827 patches before subdivision
+16817 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 792839, max 296
+transfer lists:   6.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37777, 29026, 19778)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6986, 4771, 3224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1559, 1118, 790)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(418, 314, 218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 94, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(37, 29, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0055 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                128/8192         1536/98304    ( 1.6%) 
+brushsides             785/81920        6280/655360   ( 1.0%) 
+planes                 420/65536        8400/1310720  ( 0.6%) 
+vertexes              1288/65536       15456/786432   ( 2.0%) 
+nodes                  587/65536       18784/2097152  ( 0.9%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  827/65536       46312/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              409/65536       22904/3670016  ( 0.6%) 
+facebrushes            151/0             302/0        ( 0.0%) 
+facebrushlists         827/0            3308/0        ( 0.0%) 
+leaves                 597/65536       19104/2097152  ( 0.9%) 
+leaffaces              973/65536        1946/131072   ( 1.5%) 
+leafbrushes            362/65536         724/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5615/512000      22460/2048000  ( 1.1%) 
+edges                 3179/256000      12716/1024000  ( 1.2%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             94/32768         940/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1374/65536        2748/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1345020/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18193/16777216 ( 0.1%) 
+entdata               [variable]        9802/393216   ( 2.5%) 
+LDR ambient table      597/65536        2388/262144   ( 0.9%) 
+HDR ambient table      597/65536        2388/262144   ( 0.9%) 
+LDR leaf ambient      2609/65536       73052/1835008  ( 4.0%) 
+HDR leaf ambient       597/65536       16716/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1568     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       47265/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2331
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+9 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\cs map\cs-map\frans_frez.vmf
+Map revision 24
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\cs map\cs-map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47264 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 123 texinfos to 72
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\cs map\cs-map\frans_frez.bsp
+reading d:\cs map\cs-map\frans_frez.prt
+ 253 portalclusters
+ 795 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 132 visible clusters (0.00%)
+Total clusters visible: 42973
+Average clusters visible: 169
+Building PAS...
+Average clusters audible: 252
+visdatasize:18193  compressed from 16192
+writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\cs map\cs-map\frans_frez.bsp
+827 faces
+592375 square feet [85302096.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+827 patches before subdivision
+16817 patches after subdivision
+13 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 792839, max 296
+transfer lists:   6.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(37777, 29026, 19778)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(6986, 4771, 3224)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1559, 1118, 790)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(418, 314, 218)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(122, 94, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(37, 29, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(12, 9, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0050 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                128/8192         1536/98304    ( 1.6%) 
+brushsides             785/81920        6280/655360   ( 1.0%) 
+planes                 422/65536        8440/1310720  ( 0.6%) 
+vertexes              1288/65536       15456/786432   ( 2.0%) 
+nodes                  587/65536       18784/2097152  ( 0.9%) 
+texinfos                72/12288        5184/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  827/65536       46312/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              409/65536       22904/3670016  ( 0.6%) 
+facebrushes            151/0             302/0        ( 0.0%) 
+facebrushlists         827/0            3308/0        ( 0.0%) 
+leaves                 597/65536       19104/2097152  ( 0.9%) 
+leaffaces              973/65536        1946/131072   ( 1.5%) 
+leafbrushes            362/65536         724/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5615/512000      22460/2048000  ( 1.1%) 
+edges                 3179/256000      12716/1024000  ( 1.2%) 
+LDR worldlights         13/8192         1300/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             94/32768         940/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1374/65536        2748/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1345020/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18193/16777216 ( 0.1%) 
+entdata               [variable]        9802/393216   ( 2.5%) 
+LDR ambient table      597/65536        2388/262144   ( 0.9%) 
+HDR ambient table      597/65536        2388/262144   ( 0.9%) 
+LDR leaf ambient      2600/65536       72800/1835008  ( 4.0%) 
+HDR leaf ambient       597/65536       16716/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1568     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       47264/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2331
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\cs map\cs-map\frans_frez.vmf
+Map revision 25
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\cs map\cs-map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47296 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 125 texinfos to 74
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+4 threads
+reading d:\cs map\cs-map\frans_frez.bsp
+reading d:\cs map\cs-map\frans_frez.prt
+ 255 portalclusters
+ 802 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 133 visible clusters (0.00%)
+Total clusters visible: 43788
+Average clusters visible: 171
+Building PAS...
+Average clusters audible: 254
+visdatasize:18284  compressed from 16320
+writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\cs map\cs-map\frans_frez.bsp
+832 faces
+592299 square feet [85291152.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+832 patches before subdivision
+16846 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 798751, max 296
+transfer lists:   6.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45695, 34918, 23289)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9771, 6380, 3848)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2552, 1564, 903)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(771, 438, 239)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(247, 128, 66)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(82, 38, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(28, 12, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0051 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                128/8192         1536/98304    ( 1.6%) 
+brushsides             785/81920        6280/655360   ( 1.0%) 
+planes                 426/65536        8520/1310720  ( 0.7%) 
+vertexes              1302/65536       15624/786432   ( 2.0%) 
+nodes                  590/65536       18880/2097152  ( 0.9%) 
+texinfos                74/12288        5328/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  832/65536       46592/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              407/65536       22792/3670016  ( 0.6%) 
+facebrushes            159/0             318/0        ( 0.0%) 
+facebrushlists         832/0            3328/0        ( 0.0%) 
+leaves                 600/65536       19200/2097152  ( 0.9%) 
+leaffaces              984/65536        1968/131072   ( 1.5%) 
+leafbrushes            363/65536         726/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5653/512000      22612/2048000  ( 1.1%) 
+edges                 3189/256000      12756/1024000  ( 1.2%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             95/32768         950/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1404/65536        2808/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1347388/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       18284/16777216 ( 0.1%) 
+entdata               [variable]       10457/393216   ( 2.7%) 
+LDR ambient table      600/65536        2400/262144   ( 0.9%) 
+HDR ambient table      600/65536        2400/262144   ( 0.9%) 
+LDR leaf ambient      2614/65536       73192/1835008  ( 4.0%) 
+HDR leaf ambient       600/65536       16800/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1568     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       47296/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2367
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+10 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\cs map\cs-map\frans_frez.vmf
+Map revision 26
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\cs map\cs-map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47264 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 125 texinfos to 74
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\cs map\cs-map\frans_frez.bsp
+reading d:\cs map\cs-map\frans_frez.prt
+ 249 portalclusters
+ 792 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 105 visible clusters (0.00%)
+Total clusters visible: 40264
+Average clusters visible: 161
+Building PAS...
+Average clusters audible: 248
+visdatasize:17922  compressed from 15936
+writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\cs map\cs-map\frans_frez.bsp
+821 faces
+593255 square feet [85428768.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+821 patches before subdivision
+17121 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 818718, max 299
+transfer lists:   6.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(46914, 35601, 23571)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9971, 6463, 3865)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2593, 1575, 904)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(778, 439, 239)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(249, 129, 66)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(82, 38, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(28, 12, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0043 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                128/8192         1536/98304    ( 1.6%) 
+brushsides             785/81920        6280/655360   ( 1.0%) 
+planes                 424/65536        8480/1310720  ( 0.6%) 
+vertexes              1287/65536       15444/786432   ( 2.0%) 
+nodes                  581/65536       18592/2097152  ( 0.9%) 
+texinfos                74/12288        5328/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  821/65536       45976/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              403/65536       22568/3670016  ( 0.6%) 
+facebrushes            162/0             324/0        ( 0.0%) 
+facebrushlists         821/0            3284/0        ( 0.0%) 
+leaves                 591/65536       18912/2097152  ( 0.9%) 
+leaffaces              969/65536        1938/131072   ( 1.5%) 
+leafbrushes            360/65536         720/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5576/512000      22304/2048000  ( 1.1%) 
+edges                 3156/256000      12624/1024000  ( 1.2%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             91/32768         910/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1347/65536        2694/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1348884/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17922/16777216 ( 0.1%) 
+entdata               [variable]       10665/393216   ( 2.7%) 
+LDR ambient table      591/65536        2364/262144   ( 0.9%) 
+HDR ambient table      591/65536        2364/262144   ( 0.9%) 
+LDR leaf ambient      2597/65536       72716/1835008  ( 4.0%) 
+HDR leaf ambient       591/65536       16548/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1778     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       47264/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2328
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 27
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47264 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 125 texinfos to 74
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 249 portalclusters
+ 792 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 103 visible clusters (0.00%)
+Total clusters visible: 40262
+Average clusters visible: 161
+Building PAS...
+Average clusters audible: 248
+visdatasize:17922  compressed from 15936
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+821 faces
+593255 square feet [85428768.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+821 patches before subdivision
+17121 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 818718, max 299
+transfer lists:   6.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45196, 33748, 22489)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9628, 6298, 3815)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2552, 1559, 900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(771, 437, 239)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(248, 128, 66)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(82, 38, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(28, 12, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                128/8192         1536/98304    ( 1.6%) 
+brushsides             785/81920        6280/655360   ( 1.0%) 
+planes                 424/65536        8480/1310720  ( 0.6%) 
+vertexes              1287/65536       15444/786432   ( 2.0%) 
+nodes                  581/65536       18592/2097152  ( 0.9%) 
+texinfos                74/12288        5328/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  821/65536       45976/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              403/65536       22568/3670016  ( 0.6%) 
+facebrushes            162/0             324/0        ( 0.0%) 
+facebrushlists         821/0            3284/0        ( 0.0%) 
+leaves                 591/65536       18912/2097152  ( 0.9%) 
+leaffaces              969/65536        1938/131072   ( 1.5%) 
+leafbrushes            360/65536         720/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5576/512000      22304/2048000  ( 1.1%) 
+edges                 3156/256000      12624/1024000  ( 1.2%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             91/32768         910/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1347/65536        2694/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1348884/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17922/16777216 ( 0.1%) 
+entdata               [variable]       10667/393216   ( 2.7%) 
+LDR ambient table      591/65536        2364/262144   ( 0.9%) 
+HDR ambient table      591/65536        2364/262144   ( 0.9%) 
+LDR leaf ambient      2514/65536       70392/1835008  ( 3.8%) 
+HDR leaf ambient       591/65536       16548/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1778     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       47264/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2328
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 28
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47264 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 125 texinfos to 74
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 249 portalclusters
+ 792 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 134 visible clusters (0.00%)
+Total clusters visible: 39289
+Average clusters visible: 157
+Building PAS...
+Average clusters audible: 248
+visdatasize:17930  compressed from 15936
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+821 faces
+479350 square feet [69026448.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+821 patches before subdivision
+17121 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 817507, max 299
+transfer lists:   6.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45196, 33748, 22489)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9628, 6298, 3815)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2552, 1559, 900)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(771, 437, 239)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(248, 128, 66)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(82, 38, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(28, 12, 5)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(9, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                128/8192         1536/98304    ( 1.6%) 
+brushsides             785/81920        6280/655360   ( 1.0%) 
+planes                 424/65536        8480/1310720  ( 0.6%) 
+vertexes              1287/65536       15444/786432   ( 2.0%) 
+nodes                  581/65536       18592/2097152  ( 0.9%) 
+texinfos                74/12288        5328/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  821/65536       45976/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              403/65536       22568/3670016  ( 0.6%) 
+facebrushes            162/0             324/0        ( 0.0%) 
+facebrushlists         821/0            3284/0        ( 0.0%) 
+leaves                 591/65536       18912/2097152  ( 0.9%) 
+leaffaces              969/65536        1938/131072   ( 1.5%) 
+leafbrushes            360/65536         720/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5576/512000      22304/2048000  ( 1.1%) 
+edges                 3156/256000      12624/1024000  ( 1.2%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips             91/32768         910/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1347/65536        2694/131072   ( 2.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1348884/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       17930/16777216 ( 0.1%) 
+entdata               [variable]       10666/393216   ( 2.7%) 
+LDR ambient table      591/65536        2364/262144   ( 0.9%) 
+HDR ambient table      591/65536        2364/262144   ( 0.9%) 
+LDR leaf ambient      2624/65536       73472/1835008  ( 4.0%) 
+HDR leaf ambient       591/65536       16548/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1778     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       47264/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2328
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 32
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (2079.73 3347.88 65.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47072 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 139 texinfos to 76
+Reduced 29 texdatas to 24 (817 bytes to 631)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+LoadPortals: couldn't read d:\csmap\cs-map\frans_frez.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 33
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (2079.73 3347.88 65.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47072 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 139 texinfos to 76
+Reduced 29 texdatas to 24 (817 bytes to 631)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+LoadPortals: couldn't read d:\csmap\cs-map\frans_frez.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 33
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (2079.73 3347.88 65.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47072 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 139 texinfos to 76
+Reduced 29 texdatas to 24 (817 bytes to 631)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+LoadPortals: couldn't read d:\csmap\cs-map\frans_frez.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 34
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_terrorist (2035.08 3130.80 65.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47072 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 139 texinfos to 75
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+LoadPortals: couldn't read d:\csmap\cs-map\frans_frez.prt
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 35
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47072 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 139 texinfos to 75
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 451 portalclusters
+1265 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9..
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 36
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (47072 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 139 texinfos to 75
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 298 portalclusters
+ 974 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 289 visible clusters (0.00%)
+Total clusters visible: 59279
+Average clusters visible: 198
+Building PAS...
+Average clusters audible: 297
+visdatasize:24952  compressed from 23840
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+892 faces
+749276 square feet [107895848.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+892 patches before subdivision
+16860 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 777520, max 267
+transfer lists:   5.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42581, 30694, 19250)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8171, 4679, 2262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1941, 914, 354)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(532, 202, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(159, 48, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(50, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0046 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                128/8192         1536/98304    ( 1.6%) 
+brushsides             785/81920        6280/655360   ( 1.0%) 
+planes                 466/65536        9320/1310720  ( 0.7%) 
+vertexes              1373/65536       16476/786432   ( 2.1%) 
+nodes                  664/65536       21248/2097152  ( 1.0%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  892/65536       49952/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              420/65536       23520/3670016  ( 0.6%) 
+facebrushes            152/0             304/0        ( 0.0%) 
+facebrushlists         892/0            3568/0        ( 0.0%) 
+leaves                 673/65536       21536/2097152  ( 1.0%) 
+leaffaces             1051/65536        2102/131072   ( 1.6%) 
+leafbrushes            404/65536         808/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5953/512000      23812/2048000  ( 1.2%) 
+edges                 3358/256000      13432/1024000  ( 1.3%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            108/32768        1080/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1587/65536        3174/131072   ( 2.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1304532/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       24952/16777216 ( 0.1%) 
+entdata               [variable]       11710/393216   ( 3.0%) 
+LDR ambient table      673/65536        2692/262144   ( 1.0%) 
+HDR ambient table      673/65536        2692/262144   ( 1.0%) 
+LDR leaf ambient      2654/65536       74312/1835008  ( 4.0%) 
+HDR leaf ambient       673/65536       18844/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1778     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       47072/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2495
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+12 seconds elapsed
+
+
+
+<<<<<<< HEAD
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 39
+=======
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\cs map\cs-map\frans_frez.vmf
+Map revision 37
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+<<<<<<< HEAD
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+=======
+writing d:\cs map\cs-map\frans_frez.prt...Building visibility clusters...
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+<<<<<<< HEAD
+done (0) (46424 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 130 texinfos to 76
+Reduced 29 texdatas to 24 (825 bytes to 639)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+=======
+done (0) (47056 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 139 texinfos to 75
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+
+
+
+4 threads
+<<<<<<< HEAD
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 274 portalclusters
+ 905 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 205 visible clusters (0.00%)
+Total clusters visible: 50077
+Average clusters visible: 182
+Building PAS...
+Average clusters audible: 273
+visdatasize:21289  compressed from 21920
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+=======
+reading d:\cs map\cs-map\frans_frez.bsp
+reading d:\cs map\cs-map\frans_frez.prt
+ 296 portalclusters
+ 959 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 308 visible clusters (0.00%)
+Total clusters visible: 57378
+Average clusters visible: 193
+Building PAS...
+Average clusters audible: 295
+visdatasize:24193  compressed from 23680
+writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+16 seconds elapsed
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+<<<<<<< HEAD
+Loading d:\csmap\cs-map\frans_frez.bsp
+837 faces
+1016630 square feet [146394736.00 square inches]
+6 Displacements
+37902 Square Feet [5458013.00 Square Inches]
+837 patches before subdivision
+17787 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 823458, max 263
+transfer lists:   6.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42910, 30957, 19380)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8195, 4697, 2269)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1945, 917, 355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(533, 203, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(159, 48, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(50, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0067 sec>
+=======
+Loading d:\cs map\cs-map\frans_frez.bsp
+901 faces
+752946 square feet [108424360.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+901 patches before subdivision
+17379 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 815086, max 267
+transfer lists:   6.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(45568, 33571, 21707)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(9594, 5957, 3245)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2507, 1381, 670)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(742, 361, 157)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(233, 99, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(76, 28, 10)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(25, 8, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(8, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0046 sec>
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+<<<<<<< HEAD
+brushes                127/8192         1524/98304    ( 1.6%) 
+brushsides             779/81920        6232/655360   ( 1.0%) 
+planes                 422/65536        8440/1310720  ( 0.6%) 
+vertexes              1321/65536       15852/786432   ( 2.0%) 
+nodes                  579/65536       18528/2097152  ( 0.9%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                 24/4096          768/131072   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      103342/0          103342/0        ( 0.0%) 
+faces                  837/65536       46872/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              420/65536       23520/3670016  ( 0.6%) 
+facebrushes            152/0             304/0        ( 0.0%) 
+facebrushlists         837/0            3348/0        ( 0.0%) 
+leaves                 588/65536       18816/2097152  ( 0.9%) 
+leaffaces             1000/65536        2000/131072   ( 1.5%) 
+leafbrushes            338/65536         676/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5755/512000      23020/2048000  ( 1.1%) 
+edges                 3259/256000      13036/1024000  ( 1.3%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            117/32768        1170/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1734/65536        3468/131072   ( 2.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1374880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       21289/16777216 ( 0.1%) 
+entdata               [variable]       10908/393216   ( 2.8%) 
+LDR ambient table      588/65536        2352/262144   ( 0.9%) 
+HDR ambient table      588/65536        2352/262144   ( 0.9%) 
+LDR leaf ambient      2446/65536       68488/1835008  ( 3.7%) 
+HDR leaf ambient       588/65536       16464/1835008  ( 0.9%) 
+=======
+brushes                128/8192         1536/98304    ( 1.6%) 
+brushsides             785/81920        6280/655360   ( 1.0%) 
+planes                 466/65536        9320/1310720  ( 0.7%) 
+vertexes              1382/65536       16584/786432   ( 2.1%) 
+nodes                  664/65536       21248/2097152  ( 1.0%) 
+texinfos                75/12288        5400/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  901/65536       50456/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              421/65536       23576/3670016  ( 0.6%) 
+facebrushes            150/0             300/0        ( 0.0%) 
+facebrushlists         901/0            3604/0        ( 0.0%) 
+leaves                 673/65536       21536/2097152  ( 1.0%) 
+leaffaces             1061/65536        2122/131072   ( 1.6%) 
+leafbrushes            407/65536         814/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             6009/512000      24036/2048000  ( 1.2%) 
+edges                 3383/256000      13532/1024000  ( 1.3%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            113/32768        1130/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1638/65536        3276/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1355712/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       24193/16777216 ( 0.1%) 
+entdata               [variable]       11710/393216   ( 3.0%) 
+LDR ambient table      673/65536        2692/262144   ( 1.0%) 
+HDR ambient table      673/65536        2692/262144   ( 1.0%) 
+LDR leaf ambient      2682/65536       75096/1835008  ( 4.1%) 
+HDR leaf ambient       673/65536       18844/1835008  ( 1.0%) 
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1778     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+<<<<<<< HEAD
+physics               [variable]       46424/4194304  ( 1.1%) 
+physics terrain       [variable]        1204/1048576  ( 0.1%) 
+
+Level flags = 7c
+
+Total triangle count: 2407
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+13 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 40
+=======
+physics               [variable]       47056/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2529
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+12 seconds elapsed
+
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\cs map\cs-map\frans_frez.vmf
+Map revision 39
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+<<<<<<< HEAD
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+=======
+writing d:\cs map\cs-map\frans_frez.prt...Building visibility clusters...
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+<<<<<<< HEAD
+done (0) (46424 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 130 texinfos to 76
+Reduced 29 texdatas to 24 (825 bytes to 639)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+1 second elapsed
+=======
+done (0) (47464 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 142 texinfos to 78
+Reduced 28 texdatas to 23 (797 bytes to 611)
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+
+
+
+4 threads
+<<<<<<< HEAD
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 274 portalclusters
+ 905 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 203 visible clusters (0.00%)
+Total clusters visible: 50075
+Average clusters visible: 182
+Building PAS...
+Average clusters audible: 273
+visdatasize:21289  compressed from 21920
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+=======
+reading d:\cs map\cs-map\frans_frez.bsp
+reading d:\cs map\cs-map\frans_frez.prt
+ 287 portalclusters
+ 901 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 209 visible clusters (0.00%)
+Total clusters visible: 52850
+Average clusters visible: 184
+Building PAS...
+Average clusters audible: 286
+visdatasize:22785  compressed from 22960
+writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+12 seconds elapsed
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+<<<<<<< HEAD
+Loading d:\csmap\cs-map\frans_frez.bsp
+837 faces
+1016630 square feet [146394736.00 square inches]
+6 Displacements
+37902 Square Feet [5458013.00 Square Inches]
+837 patches before subdivision
+17787 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 823458, max 263
+transfer lists:   6.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42910, 30957, 19380)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8195, 4697, 2269)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1945, 917, 355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(533, 203, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(159, 48, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(50, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0071 sec>
+=======
+Loading d:\cs map\cs-map\frans_frez.bsp
+906 faces
+752701 square feet [108388944.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+906 patches before subdivision
+17460 patches after subdivision
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 838650, max 277
+transfer lists:   6.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(47346, 35124, 22961)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(10262, 6414, 3521)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2749, 1512, 732)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(835, 399, 171)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(269, 110, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(89, 31, 11)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(30, 9, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(10, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0032 sec>
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+<<<<<<< HEAD
+brushes                127/8192         1524/98304    ( 1.6%) 
+brushsides             779/81920        6232/655360   ( 1.0%) 
+planes                 422/65536        8440/1310720  ( 0.6%) 
+vertexes              1321/65536       15852/786432   ( 2.0%) 
+nodes                  579/65536       18528/2097152  ( 0.9%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                 24/4096          768/131072   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      103342/0          103342/0        ( 0.0%) 
+faces                  837/65536       46872/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              420/65536       23520/3670016  ( 0.6%) 
+facebrushes            152/0             304/0        ( 0.0%) 
+facebrushlists         837/0            3348/0        ( 0.0%) 
+leaves                 588/65536       18816/2097152  ( 0.9%) 
+leaffaces             1000/65536        2000/131072   ( 1.5%) 
+leafbrushes            338/65536         676/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5755/512000      23020/2048000  ( 1.1%) 
+edges                 3259/256000      13036/1024000  ( 1.3%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            117/32768        1170/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1734/65536        3468/131072   ( 2.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1374880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       21289/16777216 ( 0.1%) 
+entdata               [variable]       10896/393216   ( 2.8%) 
+LDR ambient table      588/65536        2352/262144   ( 0.9%) 
+HDR ambient table      588/65536        2352/262144   ( 0.9%) 
+LDR leaf ambient      2446/65536       68488/1835008  ( 3.7%) 
+HDR leaf ambient       588/65536       16464/1835008  ( 0.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/1778     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       46424/4194304  ( 1.1%) 
+physics terrain       [variable]        1204/1048576  ( 0.1%) 
+
+Level flags = 7c
+
+Total triangle count: 2407
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+15 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\CsMap\CS-Map\frans_frez.vmf
+Map revision 41
+Can't find surfaceprop asphault for material BUILDINGS/BOATHOUSE_SHINGLES01, using default
+Patching WVT material: maps/frans_frez/de_cbble/grass_alt/blendgrassdirt_wvt_patch
+Patching WVT material: maps/frans_frez/asphalt/hr_c/hr_asphalt_001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\CsMap\CS-Map\frans_frez.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (46424 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 130 texinfos to 76
+Reduced 29 texdatas to 24 (825 bytes to 639)
+Writing D:\CsMap\CS-Map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\csmap\cs-map\frans_frez.bsp
+reading d:\csmap\cs-map\frans_frez.prt
+ 274 portalclusters
+ 905 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 203 visible clusters (0.00%)
+Total clusters visible: 50075
+Average clusters visible: 182
+Building PAS...
+Average clusters audible: 273
+visdatasize:21289  compressed from 21920
+writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+8 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\csmap\cs-map\frans_frez.bsp
+837 faces
+1016630 square feet [146394736.00 square inches]
+6 Displacements
+37902 Square Feet [5458013.00 Square Inches]
+837 patches before subdivision
+17787 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 823458, max 263
+transfer lists:   6.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(42936, 30980, 19397)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(8197, 4699, 2270)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1945, 917, 355)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(533, 203, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(159, 48, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(50, 12, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(5, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0111 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   8/1024          384/49152    ( 0.8%) 
+brushes                127/8192         1524/98304    ( 1.6%) 
+brushsides             779/81920        6232/655360   ( 1.0%) 
+planes                 422/65536        8440/1310720  ( 0.6%) 
+vertexes              1321/65536       15852/786432   ( 2.0%) 
+nodes                  579/65536       18528/2097152  ( 0.9%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                 24/4096          768/131072   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      103342/0          103342/0        ( 0.0%) 
+faces                  837/65536       46872/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              420/65536       23520/3670016  ( 0.6%) 
+facebrushes            152/0             304/0        ( 0.0%) 
+facebrushlists         837/0            3348/0        ( 0.0%) 
+leaves                 588/65536       18816/2097152  ( 0.9%) 
+leaffaces             1000/65536        2000/131072   ( 1.5%) 
+leafbrushes            338/65536         676/131072   ( 0.5%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5755/512000      23020/2048000  ( 1.1%) 
+edges                 3259/256000      13036/1024000  ( 1.3%) 
+LDR worldlights         16/8192         1600/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            117/32768        1170/327680   ( 0.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1734/65536        3468/131072   ( 2.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1374880/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       21289/16777216 ( 0.1%) 
+entdata               [variable]       11098/393216   ( 2.8%) 
+LDR ambient table      588/65536        2352/262144   ( 0.9%) 
+HDR ambient table      588/65536        2352/262144   ( 0.9%) 
+LDR leaf ambient      2447/65536       68516/1835008  ( 3.7%) 
+HDR leaf ambient       588/65536       16464/1835008  ( 0.9%) 
+=======
+brushes                129/8192         1548/98304    ( 1.6%) 
+brushsides             791/81920        6328/655360   ( 1.0%) 
+planes                 460/65536        9200/1310720  ( 0.7%) 
+vertexes              1399/65536       16788/786432   ( 2.1%) 
+nodes                  666/65536       21312/2097152  ( 1.0%) 
+texinfos                78/12288        5616/884736   ( 0.6%) 
+texdata                 23/4096          736/131072   ( 0.6%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  906/65536       50736/3670016  ( 1.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              417/65536       23352/3670016  ( 0.6%) 
+facebrushes            160/0             320/0        ( 0.0%) 
+facebrushlists         906/0            3624/0        ( 0.0%) 
+leaves                 675/65536       21600/2097152  ( 1.0%) 
+leaffaces             1057/65536        2114/131072   ( 1.6%) 
+leafbrushes            427/65536         854/131072   ( 0.7%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             6025/512000      24100/2048000  ( 1.2%) 
+edges                 3396/256000      13584/1024000  ( 1.3%) 
+LDR worldlights         15/8192         1500/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            104/32768        1040/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1536/65536        3072/131072   ( 2.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     1352892/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       22785/16777216 ( 0.1%) 
+entdata               [variable]       11502/393216   ( 2.9%) 
+LDR ambient table      675/65536        2700/262144   ( 1.0%) 
+HDR ambient table      675/65536        2700/262144   ( 1.0%) 
+LDR leaf ambient      2648/65536       74144/1835008  ( 4.0%) 
+HDR leaf ambient       675/65536       18900/1835008  ( 1.0%) 
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+<<<<<<< HEAD
+static props          [variable]           1/1778     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       46424/4194304  ( 1.1%) 
+physics terrain       [variable]        1204/1048576  ( 0.1%) 
+
+Level flags = 7c
+
+Total triangle count: 2407
+Writing d:\csmap\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\csmap\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+17 seconds elapsed
+=======
+static props          [variable]           1/1568     ( 0.1%) 
+pakfile               [variable]      150346/0        ( 0.0%) 
+physics               [variable]       47464/4194304  ( 1.1%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2551
+Writing d:\cs map\cs-map\frans_frez.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\cs map\cs-map\frans_frez.bsp', but we don't own that location. Allowing.
+9 seconds elapsed
+>>>>>>> 2f34f8f44cc8f58f876ce090cd812a32d3b6b5a6
