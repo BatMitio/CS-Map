@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8075"
-	"mapversion" "36"
+	"mapversion" "37"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "36"
+	"mapversion" "37"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1769,7 +1769,7 @@ world
 		side
 		{
 			"id" "1356"
-			"plane" "(-688 -32 64) (-688 1808 64) (-512 1808 64)"
+			"plane" "(-672 1808 64) (-512 1808 64) (-512 -16.0001 64)"
 			"material" "CONCRETE/CONCRETEFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -64] 0.25"
@@ -1780,7 +1780,7 @@ world
 		side
 		{
 			"id" "1355"
-			"plane" "(-688 1808 48) (-688 -32 48) (-512 -32 48)"
+			"plane" "(-672 -16.0001 48) (-512 -16.0001 48) (-512 1808 48)"
 			"material" "CONCRETE/CONCRETEFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -64] 0.25"
@@ -1791,7 +1791,7 @@ world
 		side
 		{
 			"id" "1354"
-			"plane" "(-512 1808 48) (-512 -32 48) (-512 -32 64)"
+			"plane" "(-512 1808 48) (-512 -16.0001 48) (-512 -16.0001 64)"
 			"material" "CONCRETE/CONCRETEFLOOR001A"
 			"uaxis" "[0 1 0 64] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1802,7 +1802,7 @@ world
 		side
 		{
 			"id" "1353"
-			"plane" "(-688 1808 48) (-512 1808 48) (-512 1808 64)"
+			"plane" "(-672 1808 48) (-512 1808 48) (-512 1808 64)"
 			"material" "CONCRETE/CONCRETEFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1813,7 +1813,7 @@ world
 		side
 		{
 			"id" "1352"
-			"plane" "(-512 -32 48) (-688 -32 48) (-688 -32 64)"
+			"plane" "(-512 -16.0001 48) (-672 -16.0001 48) (-672 -16.0001 64)"
 			"material" "CONCRETE/CONCRETEFLOOR001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1824,7 +1824,7 @@ world
 		side
 		{
 			"id" "1351"
-			"plane" "(-527 7270 -836) (-527 7270 836) (-527 -4920 836)"
+			"plane" "(-672 -16.0001 48) (-672 1808 48) (-672 1808 64)"
 			"material" "CONCRETE/CONCRETEFLOOR001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
